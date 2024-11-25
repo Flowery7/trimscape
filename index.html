@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+   <meta charset="UTF-8">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta name="description" content="Quality Gardening Services in the Bradford area!">
+   <meta name="keywords" content="gardening services, fencing, drystone walling, hedge trimming, garden maintenance, lawn care, landscaping, local gardeners, garden fencing, drystone wall repair, hedge cutting, garden clean-up, garden renovation, planting services, weed control, pruning, outdoor maintenance, affordable gardening, local garden experts, custom fencing solutions, gardening near me, bradford,thornton">
+     
+   <link rel="canonical" href="https://www.yourdomain.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagefile">
+<link rel="icon" type="image/png" sizes="32x32" href="imagefile">
+<link rel="icon" type="image/png" sizes="16x16" href="imagefile">
+<link rel="icon" type="image/png" sizes="192x192" href="imagefile">
+<link rel="icon" type="image/png" sizes="512x512" href="imagefile">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#89ABE5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+  
+  
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gardening page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+    }
+    .navbar {
+      background-color: #0E9B3D;
+    }
+    
+    .navbar a, .navbar-brand {
+     color: white !important;
+    font-weight: 700;
+    }
+
+    .navbar-brand img {
+     vertical-align: middle;
+    }
+    
+    
+    .hero {
+      background: url('/background_gardening_flowers.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    
+    
+    
+    .hero-overlay {
+  display: inline-block;
+  background-color: rgba(102, 187, 106, 0.7); /* Semi-transparent background */
+  padding: 10px 20px; /* Adjust padding to fit text nicely */
+  border-radius: 8px; /* Optional, gives rounded corners */
+}
+
+.hero-overlay h1,
+.hero-overlay p,
+.hero-overlay a {
+  color: white; /* Text color */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for contrast */
+}
+
+.hero-overlay a {
+  background-color: white; /* Button background */
+  color: #333; /* Button text color */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Button text shadow */
+  padding: 3px 6px;
+  border-radius: 1.5px;
+  font-weight: bold;
+}
+
+.hero-overlay a:hover {
+  background-color: #333; /* Button hover background */
+  color: white; /* Button hover text color */
+}
+    
+    
+    .hero h1 {
+      font-size: 2rem;
+      font-weight: 300;
+    }
+    .hero p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    .cta-btn {
+      margin-top: 20px;
+    }
+    .about, .services, .testimonials, .contact {
+      padding: 60px 20px;
+    }
+    .service-card {
+      border: 1px solid #eaeaea;
+      border-radius: 8px;
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+    .service-card:hover {
+      transform: scale(1.05);
+    }
+    
+/* Cookie Banner Styling */
+#cookie-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4edda; /* Soft green background */
+    border-top: 3px solid #155724; /* Dark green accent border */
+    padding: 12px 20px; /* Comfortable padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+    font-family: "Roboto", Arial, sans-serif; /* Modern, clean font */
+    font-size: 14px;
+    color: #155724; /* Dark green text for contrast */
+}
+
+#cookie-banner p {
+    margin: 0;
+    line-height: 1.5; /* Improved readability */
+}
+
+#cookie-banner a {
+    color: #155724; /* Link matches accent color */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#cookie-banner a:hover {
+    text-decoration: none; /* Hover effect for links */
+    color: #0c3e1d; /* Slightly darker green */
+}
+
+#cookie-banner button {
+    background-color: #28a745; /* Softer green for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Rounded buttons */
+    padding: 6px 14px; /* Reduced padding for smaller size */
+    font-size: 12px; /* Compact font */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for buttons */
+}
+
+#cookie-banner button:hover {
+    background-color: #218838; /* Slightly darker green on hover */
+    transform: translateY(-1px); /* Subtle hover lift */
+}
+
+#cookie-banner button#reject-cookies {
+    background-color: #6c757d; /* Gray for reject button */
+}
+
+#cookie-banner button#reject-cookies:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #cookie-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    #cookie-banner div {
+        margin-bottom: 10px;
+    }
+
+    #cookie-banner button {
+        width: auto; /* No full-width buttons */
+        margin-bottom: 10px;
+    }
+
+    #cookie-banner button:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+    
+    .footer {
+      background-color: #0E9B3D;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer a {
+      color: #66BB6A;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+    }
+    
+    #gallery {
+  background-color: #f9f9f9; /* Light background to differentiate the section */
+}
+
+.carousel-inner img {
+  max-height: 500px; /* Adjust height for images */
+  object-fit: cover; /* Ensures images fit well without distortion */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Make the control icons white for visibility */
+}
+
+    
+  </style>
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+      <img src="/Untitled design (7).png" alt="Logo" style="height: 50px; margin-right: 10px;">
+      <a class="navbar-brand" href="#">TrimScape</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html#area">Area</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-overlay">
+      <h1>Domestic & Commercial</h1>
+      <p>Professional Trusted Gardening Services in Bradford.</p>
+      <a href="#contact" class="btn btn-light btn-lg cta-btn">Call Now</a>
+    </div>
+  </div>
+</section>
+
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+     <h2 class="text-center mb-4" style="color: #2E7D32; font-weight: 520;">Garden Maintenance Services</h2>
+<p>Maintain pristine outdoor spaces with our trusted team of professionals. We specialise in delivering tailored domestic and commercial garden maintenance services, ensuring your property always looks its best. From private backyards to large commercial landscapes, we handle every job with care and precision.<br><br>
+
+Our comprehensive services include regular lawn care and maintenance, keeping your grass lush and healthy with expert mowing, edging, and fertilization. We also provide professional hedge and shrub trimming to ensure your greenery is always neat and well-shaped. <br><br>
+
+Seasonal clean-ups are a breeze with us, whether you're preparing your garden for spring or tidying up after autumn's fallen leaves.   Giving you peace of mind that your garden is both beautiful and environmentally friendly.</p>
+
+<br> <br>
+<h2 class="text-center mb-4" style="color: #2E7D32; font-weight: 520;">Qualified Professionals</h2><br><br>
+
+
+Why choose us? Our experienced local team understands the area, including local soil, weather, and plant varieties, ensuring the best results for your garden. We offer personalised services tailored to your specific needs and preferences, and we pride ourselves on being reliable, punctual, and friendly, offering exceptional customer service every time.
+<br> <br>
+Ready to bring your garden to life? Contact us for a free, no - obligation quote. We look forward to working with you.
+
+</p>
+    </div>
+    </section>
+  
+
+
+<!-- Services Section -->
+<section id="services" class="services py-5" style="background-color: #E8F5E9;">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: #2E7D32; font-weight: 520;">Our Gardening Services</h2>
+    <div class="row g-4">
+      <!-- Garden Maintenance -->
+      <div class="col-md-3">
+        <div class="service-card text-center">
+          <i class="fas fa-leaf fa-3x mb-3" style="color: #66BB6A;"></i>
+          <h4>Garden Maintenance</h4>
+          <ul class="text-start px-4">
+            <li>Regular lawn care and upkeep.</li>
+            <li>Pruning, weeding, and general tidying.</li>
+            <li>Year-round reliable service.</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Landscaping -->
+      <div class="col-md-3">
+        <div class="service-card text-center">
+          <i class="fas fa-mountain fa-3x mb-3" style="color: #66BB6A;"></i>
+          <h4>Landscaping</h4>
+          <ul class="text-start px-4">
+            <li>Design and installation of garden features.</li>
+            <li>Hardscaping and softscaping expertise.</li>
+            <li>Create stunning outdoor spaces.</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Fencing -->
+      <div class="col-md-3">
+        <div class="service-card text-center">
+          <i class="fas fa-warehouse fa-3x mb-3" style="color: #66BB6A;"></i>
+          <h4>Fencing</h4>
+          <ul class="text-start px-4">
+            <li>Installation of all fence styles.</li>
+            <li>Repairs and maintenance available.</li>
+            <li>Secure and enhance your property.</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Seasonal Maintenance -->
+      <div class="col-md-3">
+        <div class="service-card text-center">
+          <i class="fas fa-snowflake fa-3x mb-3" style="color: #66BB6A;"></i>
+          <h4>Seasonal Maintenance</h4>
+          <ul class="text-start px-4">
+            <li>Prepare your garden for all seasons.</li>
+            <li>Pruning, mulching, and plant care.</li>
+            <li>Keep your garden looking its best.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Meet Your Practitioner Section -->
+<section id="practitioner" class="py-5" style="background-color: #C8E6C9;">
+  <div class="container">
+    <h2 class="text-center mb-4"></h2>
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="/gardening_pond.jpg" alt="Practitioner Photo" class="rounded-circle img-fluid shadow" style="width: 200px; height: 200px; object-fit: cover;">
+      </div>
+      <div class="col-md-8">
+        <h2 class="text-center mb-4" style="color: #2E7D32; font-weight: 520;">Meet the team</h2>
+        <p>
+With a wealth of combined experience, our team of local gardeners are dedicated to creating and maintaining stunning outdoor spaces in the community. Passionate about the beauty and tranquility that gardening brings, we specialize in transforming gardens into vibrant, thriving havens that reflect the unique character of the area.  
+</p>
+<p>
+Known for our meticulous attention to detail and friendly, approachable service, we have helped countless clients enhance their outdoor spaces. Whether it’s designing bespoke landscapes, maintaining lush lawns, or nurturing flourishing flowerbeds, our team takes pride in delivering exceptional results tailored to your needs. Being local to the area, we understand the specific challenges and opportunities presented by the environment, ensuring every garden we care for thrives year-round.  
+</p>
+
+        <div class="qualifications-section">
+    <img src="/checkatrade.jpg" alt="Checkatrade" style="width: 100%; height: auto; display: block;">
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+  <!-- Social Media Section -->
+    <section id="contact-section" class="text-center py-5" style="background-color: #ffffff;">
+    <div class="container">
+      <p>
+        Follow us on Social Media
+      </p>
+      <div class="social-media-icons mt-4">
+        <a href="https://www.facebook.com/JNtrimscape" target="_blank" class="mx-3">
+          <i class="fab fa-facebook fa-2x" style="color: #3b5998;"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="mx-3">
+          <i class="fab fa-twitter fa-2x" style="color: #00acee;"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="mx-3">
+          <i class="fab fa-instagram fa-2x" style="color: #e4405f;"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="mx-3">
+          <i class="fab fa-linkedin fa-2x" style="color: #0077b5;"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Info Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="text-center mb-4" style="color: #2E7D32; font-weight: 520;">Why Choose Professional Gardeners?</h2>
+<p>A well-maintained garden doesn’t just happen by chance—it requires knowledge, time, and consistent care. For many, busy schedules, a lack of tools, or uncertainty about proper techniques can make garden upkeep feel overwhelming. That’s where professional gardeners come in, offering expertise and dedication to transform your outdoor space into a thriving, beautiful haven.<br><br>
+
+Neglecting your garden can lead to issues like overgrown plants, invasive weeds, and poor soil conditions. These problems not only diminish the beauty and usability of your garden but can also harm the environment and affect your property’s curb appeal. Professional gardeners understand how to address these challenges effectively, preventing small issues from becoming costly problems.<br><br>
+
+Seasonal changes, pest management, and proper planting techniques are all part of creating and maintaining a vibrant garden. By choosing experienced gardeners, you ensure your outdoor space receives the specialized care it needs throughout the year, giving you more time to enjoy the beauty and benefits of a healthy garden.</p>
+
+    </div>
+  </section>
+
+  
+  
+    <!-- Gallery Section -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+     <h2 class="text-center mb-4" style="color: #2E7D32; font-weight: 520;">Our Work</h2>
+      <div id="workCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img src="/beautiful_garden.jpg" class="d-block w-100" alt="Work 1">
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img src="/fencing.jpg" class="d-block w-100" alt="Work 2">
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img src="/house_ivy_clean.jpg" class="d-block w-100" alt="Work 3">
+          </div>
+          <!-- Slide 4 -->
+          <div class="carousel-item">
+            <img src="/dry_stone_walling.jpg" class="d-block w-100" alt="Work 4">
+          </div>
+        </div>
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#workCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#workCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+     <h2 class="text-center mb-4" style="color: #2E7D32; font-weight: 520;">Contact Us</h2>
+      <p class="text-center">Call us at <strong>07902 992229</strong><br>Email:<strong> JNtrimscape@gmail.com</strong> </p>
+      <form>
+        <div class="row g-3">
+          <div class="col-md-6">
+           
+    </div>
+  </section>
+  
+  
+  
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let carousel = new bootstrap.Carousel('#workCarousel', {
+      interval: 3000, // Adjust time in milliseconds for slide transition
+      ride: 'carousel' // Starts the carousel automatically
+    });
+    
+  });
+</script>
+
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Follow us on:</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/JNtrimscape"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+      </div>
+      <p>&copy; 2024 JNtrimscape. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+<div id="cookie-banner" style="display: flex; justify-content: space-between; align-items: center; background-color: #f8f9fa; border: 1px solid #dee2e6; padding: 10px; position: fixed; bottom: 0; width: 100%; z-index: 1000;">
+  <div>
+    <p style="margin: 0;">
+      We use cookies for Google Analytics to improve your experience.
+      <a href="privacy.html" target="_blank" style="text-decoration: underline;">Learn more</a>
+    </p>
+  </div>
+  <div>
+    <button id="accept-cookies" style="margin-right: 10px;">Accept</button>
+    <button id="reject-cookies">Decline</button>
+  </div>
+</div>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const cookieBanner = document.getElementById("cookie-banner");
+    const acceptButton = document.getElementById("accept-cookies");
+    const rejectButton = document.getElementById("reject-cookies");
+
+    // Check if user already made a choice
+    const userConsent = localStorage.getItem("cookieConsent");
+    if (userConsent) {
+      cookieBanner.style.display = "none";
+      if (userConsent === "accepted") {
+        loadGoogleAnalytics();
+      }
+    }
+
+    // Handle Accept Button
+    acceptButton.addEventListener("click", () => {
+      localStorage.setItem("cookieConsent", "accepted");
+      loadGoogleAnalytics();
+      cookieBanner.style.display = "none";
+    });
+
+    // Handle Reject Button
+    rejectButton.addEventListener("click", () => {
+      localStorage.setItem("cookieConsent", "rejected");
+      cookieBanner.style.display = "none";
+    });
+
+    // Function to load Google Analytics script
+    function loadGoogleAnalytics() {
+      const script = document.createElement("script");
+      script.src = "https://www.googletagmanager.com/gtag/js?id=YOUR_GOOGLE_ANALYTICS_ID";
+      script.async = true;
+      document.head.appendChild(script);
+
+      script.onload = () => {
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "YOUR_GOOGLE_ANALYTICS_ID");
+      };
+    }
+  });
+</script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
