@@ -18,4 +18,4 @@ Allow: /assets/js/
 Allow: /images/
 
 # Sitemap location for better crawling and indexing
-Sitemap: https://www..co.uk/sitemap.xml
+Sitemap: https://flowery7.github.io/trimscape/sitemap.xml
