@@ -18,4 +18,4 @@ Allow: /assets/js/
 Allow: /images/
 
 # Sitemap location for better crawling and indexing
-Sitemap: https://flowery7.github.io/trimscape/sitemap.xml
+Sitemap: https://www.jntrimscape.co.uk/sitemap.xml
