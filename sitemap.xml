@@ -3,19 +3,19 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.jntrimscape.co.uk</loc>
-    <lastmod>2025-07-27</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.jntrimscape.co.uk/about.html</loc>
-    <lastmod>2025-07-27</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.jntrimscape.co.uk/privacy.html</loc>
-    <lastmod>2025-07-27</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
